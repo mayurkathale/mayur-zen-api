@@ -1,0 +1,16 @@
+twitter_history:
+    resource: "@TwitterBundle/Controller/HistoryController.php"
+    type:     annotation
+
+twitter_history:
+    resource: "@TwitterBundle/Controller/HistoryController.php"
+    type:     annotation
+
+api:
+    resource: TwitterBundle\Controller\TwitterController
+    type: annotation
+    prefix: /api/v1/
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
